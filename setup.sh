@@ -6,7 +6,7 @@ apt-get install -y git libgnutls28-dev libev-dev libpam0g-dev liblz4-dev libsecc
         libtalloc-dev libhttp-parser-dev protobuf-c-compiler gperf \
         nuttcp lcov libuid-wrapper libpam-wrapper libnss-wrapper \
         libsocket-wrapper gss-ntlmssp haproxy iputils-ping freeradius \
-        gawk gnutls-bin iproute2 yajl-tools tcpdump
+        gawk gnutls-bin iproute2 yajl-tools tcpdump autoconf iptables ipcalc-ng
 echo "install pre required packages done..."
 echo "enable ip forwarding"
 echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
